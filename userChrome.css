@@ -75,7 +75,7 @@ menupopup menu,
   height: 32px !important;
   padding: 0 16px !important;
   border: 0 !important;
-  /* background: 0 !important; */
+  background: 0 !important;
   color: inherit !important;
   fill-opacity: initial !important;
 }
@@ -146,11 +146,11 @@ menuitem[checked='true'] > .menu-iconic-left > .menu-iconic-icon {
 }
 
 #context-navigation {
-  /* background: 0 !important; */
+  background: 0 !important;
 }
 
 #context-navigation .menuitem-iconic {
-  /* background: 0 !important; */
+  background: 0 !important;
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -877,7 +877,7 @@ menuseparator {
 }
 
 .search-add-engines {
-  /* background: 0 !important; */
+  background: 0 !important;
 }
 
 /* windows-specific tweaks */
