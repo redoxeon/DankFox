@@ -1,4 +1,6 @@
-# FireFox userChrome & Custom Start Page
+# DankFox for Firefox
+
+FireFox userChrome & Custom Start Page
 
 My custom new tab page modified from [PixelFox](https://github.com/AnubisZ9/PixelFox) and some userChrome borrowed from [MaterialFox](https://github.com/muckSponge/MaterialFox) to get some nice right-click menus and bookmark dropdowns.
 
