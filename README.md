@@ -8,9 +8,9 @@ My custom new tab page modified from [PixelFox](https://github.com/AnubisZ9/Pixe
 
 In order to make the custom new tab page work, the following instrucions must be followed:
 
-- Create and place `autoconfig.cfg` in Firefox main install folder. In this cfg file you must set your local homepage (`var newTabURL ="Path_to_local_html_file"`).
+- Create and place `autoconfig.cfg` in Firefox main install folder. In this cfg file you must set your local homepage (`var newTabURL ="path_to_local_html_file"`).
 
-- Create and place `autoconfig.js` in a subfolder of Firefox main install folder > default > Pref
+- Create and place `autoconfig.js` in a subfolder of Firefox main install folder > defaults > pref
 
 **autoconfig.cfg**
 ```
