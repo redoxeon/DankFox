@@ -2,7 +2,7 @@
 
 FireFox userChrome & Custom Start Page
 
-My custom new tab page modified from [PixelFox](https://github.com/AnubisZ9/PixelFox) and some userChrome borrowed from [MaterialFox](https://github.com/muckSponge/MaterialFox) to get some nice right-click menus and bookmark dropdowns.
+My custom new tab page modified from [PixelFox](https://github.com/AnubisZ9/PixelFox) and some userChrome borrowed from [MaterialFox](https://github.com/muckSponge/MaterialFox) to get some nice right-click menus and bookmark dropdowns. I designed the colors of the startpage to match the [Dank Neon Firefox theme](https://addons.mozilla.org/en-US/firefox/addon/dank-neon/) I created based on the [Dank Neon editor theme](https://dankneon.com/), so it probably works best with that theme added by default.
 
 ![Screenshot of homepage](screenshot.png)
 
@@ -18,7 +18,7 @@ In order to make the custom new tab page work, the following instrucions must be
 ```
 // first line is a comment
 var {classes:Cc,interfaces:Ci,utils:Cu} = Components;
-var newTabURL = "";
+var newTabURL = "path_to_local_html_file";
 aboutNewTabService = Cc["@mozilla.org/browser/aboutnewtab-service;1"].getService(Ci.nsIAboutNewTabService);
 aboutNewTabService.newTabURL = newTabURL;
 ```
